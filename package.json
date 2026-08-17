@@ -1,0 +1,15 @@
+{
+  "name": "compliance-mvp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Resumable, idempotent document analysis pipeline. Zero runtime dependencies.",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "test": "node --no-warnings --experimental-strip-types --test ./test/*.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
